@@ -106,7 +106,7 @@ function handleSlider() {
         ctx.drawImage(image1, 0, 0, canvas.width, canvas.height);
     }
     else {
-        inputLabel.innerHTML = 'Resolution: ' + inputSlider.value + ' px';
+        inputLabel.innerHTML = 'One Ascii character drawn for each ' + inputSlider.value + 'x' + inputSlider.value + ' px';
         ctx.font = parseInt(inputSlider.value) * 1.2 + 'px Verdana'
         effect.draw(parseInt(inputSlider.value));
     }

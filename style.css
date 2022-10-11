@@ -5,6 +5,10 @@
 }
 body {
     background: black;
+    font-family: 'Quicksand', sans-serif;
+}
+h1, h3 {
+    color: white;
 }
 .container {
     position: absolute;

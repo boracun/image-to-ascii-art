@@ -5,15 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pixels</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
+    <h1>Change the resolution value to replace pixels with Ascii characters</h1>
     <canvas id="canvas1"></canvas>
 
     <div class="controls">
-      <label for="resolution" id="resolutionLabel">Resolution 5 px</label>
-      <input type="range" id="resolution" name="resolution" min="1" max="20"  value="5">
+      <label for="resolution" id="resolutionLabel">One Ascii character drawn for each 5x5 px</label>
+      <input type="range" id="resolution" name="resolution" min="1" max="20"  value="1">
     </div>
+    <br>
+    <hr>
+    <h3>Project Inspired by <a href="https://www.youtube.com/watch?v=HeT-5RZgEQY&ab_channel=Frankslaboratory" target="_blank">this video</a></h3>
   </div>
 
   <script src="script.js"></script>
